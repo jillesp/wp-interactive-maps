@@ -1,14 +1,20 @@
 console.log('theme.js loaded.')
 
+// init vars
+
+var s; var content;
+
 function drawMap(paths) {
     for(var p in paths) {
         s.path(paths[p]).attr({
-                'fill': '#3C6D32',
+                'fill': fill,
                 'data-area': p
             }).mouseover(function(e) {
             this.animate({
-                'fill': '#1D3016'
+                'fill': hover_fill
             }, 300, function(){
+
+                // display content box
                 var point = this.getBBox();
                 var left = (point.x + point.width + 20) * scale;
                 var top = (point.y) * scale;
@@ -22,6 +28,27 @@ function drawMap(paths) {
                     layover.animate({
                         'opacity': 1
                     }, 300);
+                
+                // pull content
+                    for(var c in content) {
+                        if( c == this.attr('data-area') ) {
+                            var img, title, desc;
+                            if (content[c].thumb) img = thumb_src + content[c].thumb;
+                            if (content[c].title) title = content[c].title;
+                            if (content[c].description) desc = content[c].description;
+
+                            layover.find('.content').html(
+                                "<img src='" + img + "' />" +
+                                "<p><strong>" + title + "</strong><br/><br/>" + desc + "</p>"
+                            )
+                            return;
+                        } else {
+                            layover.find('.content').html(
+                                "<img src='" + thumb_placeholder + "' />" +
+                                "<p><strong>" + title_placeholder + "</strong><br/><br/>" + desc_placeholder + "</p>"
+                            )
+                        }
+                    }
             })
         }).mouseout(function(e){
             this.animate({
@@ -31,28 +58,27 @@ function drawMap(paths) {
                     layover.removeClass('active');
                     if(layover.css('opacity') > 0 || (!layover.hasClass('active')) ) layover.css('opacity', 0);
             })
-        }).click(function(e){
-            // var layover = $('.layover');
-            //     layover.addClass('active');
         })
      }
 }
 
-var s; var scale = .4;
 $(document).ready(function(){
     s = Snap("#snapper");
-    // s = Snap("100%", 700);
-    // s.attr('viewBox', "0 0 100 100")
     s.attr('transform', "scale("+ scale +")");
-
-    // m = new Snap.Matrix();
-    // m.rotate(45)
 
     $.ajax({
         dataType: "json",
         url: "./assets/rsrc/areas.json",
         success: function(data){
             drawMap(data)
+        }
+    });
+
+    $.ajax({
+        dataType: "json",
+        url: "./assets/rsrc/content.json",
+        success: function(data){
+            content = data;
         }
     });
 

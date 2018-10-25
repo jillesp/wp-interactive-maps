@@ -1,0 +1,20 @@
+{
+    "PHL2545": {
+        "thumb" : "malagos.png",
+        "area" : "PH - Malagos",
+        "title" : "Malagos",
+        "description" : "Our chocolates are made from Tree to Bar through the efforts of many people. Especially the farmers. The entire process of sowing, tending, harvesting, fermenting, drying, sorting, roasting, and production of the chocolate is done right on our farm, giving our products a more distinctive and pronounced taste."
+    },
+    "PHL2550": {
+        "thumb" : "hiraya.png",
+        "area" : "PH - Hiraya",
+        "title" : "Hiraya",
+        "description" : "'Hiraya Manawari' is an ancient Tagalog phrase that means hopes and dreams fulfilled. Hiraya was named such because their products “bring joy to people, imparted with all the love, care, and passion from the moment of its creation.” The brand fosters a relationship with the farmers of Barangay Malabog, which is two hours away from Davao, where their cocoa is harvested."
+    },
+    "PHL2547": {
+        "thumb" : "theo.png",
+        "area" : "PH - Theo & Philo",
+        "title" : "Theo & Philo",
+        "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+    }
+}
