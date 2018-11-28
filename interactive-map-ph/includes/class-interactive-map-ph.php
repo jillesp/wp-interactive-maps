@@ -222,6 +222,8 @@ class Interactive_Map_Ph {
 		return $this->version;
 	}
 
+	
+
 
 	
 }
