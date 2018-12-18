@@ -1,0 +1,330 @@
+{
+    "regions": {
+        "car": {
+            "name": "CAR",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#f8a828",
+            "hover": "#d1850f",
+            "provinces": ["PHL2546", "PHL2542", "PHL4931", "PHL2552", "PHL2559", "PHL2551", "PHL5539"]
+        },
+        "region-i": {
+            "name": "Region I",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#0a71b5",
+            "hover": "#13628e",
+            "provinces": ["PHL2547", "PHL2548", "PHL2561", "PHL2562", "PHL5541"]
+        },
+        "region-ii": {
+            "name": "Region II",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#5bb142",
+            "hover": "#357123",
+            "provinces": ["PHL2545", "PHL2550", "PHL2554", "PHL2553", "PHL5537", "PHL2543"]
+        },
+        "region-iii": {
+            "name": "Region III",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#e12340",
+            "hover": "#ae2443",
+            "provinces": ["PHL2556", "PHL2558", "PHL2560", "PHL5540", "PHL2555", "PHL5538", "PHL2557", "PHL2565", "PHL2549"]
+        },
+        "ncr": {
+            "name": "NCR",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#f48e04",
+            "hover": "#b57b28",
+            "provinces": ["PHL5547", "PHL5545", "PHL5546", "PHL5549", "PHL5543", "PHL5544", "PHL5555", "PHL5556", "PHL5557", "PHL5554", "PHL5553", "PHL5558", "PHL5552", "PHL5558", "PHL5552", "PHL5550", "PHL5542", "PHL5559", "PHL5551"]
+        },
+        "region-iv-a": {
+            "name": "Region IV-A",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#812cb1",
+            "hover": "#611f81",
+            "provinces": ["PHL2567", "PHL2572", "PHL2566", "PHL2563", "PHL2564", "PHL5560", "PHL2564"]
+        },
+        "region-iv-b": {
+            "name": "Region IV-B",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#669e58",
+            "hover": "#357123",
+            "provinces": ["PHL2570", "PHL2571", "PHL2569", "PHL2535", "PHL2534", "PHL5533"]
+        },
+        "region-v": {
+            "name": "Region V",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#209fd7",
+            "hover": "#0a71b5",
+            "provinces": ["PHL2537", "PHL2538", "PHL2540", "PHL5536", "PHL2539", "PHL2541", "PHL2536"]
+        },
+        "region-vi": {
+            "name": "Region VI",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#ec4b9d",
+            "hover": "#bb1369",
+            "provinces": ["PHL2525", "PHL2526", "PHL2528", "PHL2529", "PHL2530", "PHL2518", "PHL5525", "PHL5526"]
+        },
+        "region-vii": {
+            "name": "Region VII",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#f8b334",
+            "hover": "#d1850f",
+            "provinces": ["PHL2516", "PHL2517", "PHL2514", "PHL5523", "PHL2513", "PHL5522", "PHL5524", "PHL5524"]
+        },
+        "region-viii": {
+            "name": "Region VIII",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#dc3552",
+            "hover": "#af2543",
+            "provinces": ["PHL2586", "PHL2584", "PHL2582", "PHL2581", "PHL2583", "PHL5534", "PHL5535", "PHL2585"]
+        },
+        "region-ix": {
+            "name": "Region IX",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#8717c8",
+            "hover": "#611f81",
+            "provinces": ["PHL2522", "PHL2520", "PHL2521", "PHL4932"]
+        },
+        "region-x": {
+            "name": "Region X",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#41a62a",
+            "hover": "#357123",
+            "provinces": ["PHL2523", "PHL2573", "PHL5530", "PHL2595", "PHL2589", "PHL5531", "PHL2590"]
+        },
+        "region-xi": {
+            "name": "Region XI",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#ae5180",
+            "hover": "#bb1369",
+            "provinces": ["PHL2596", "PHL2591", "PHL5528", "PHL2592", "PHL2597"]
+        },
+        "region-xii": {
+            "name": "Region XII",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#ce9231",
+            "hover": "#b57116",
+            "provinces": ["PHL2580", "PHL2599", "PHL2598", "PHL2579", "PHL5529"]
+        },
+        "region-xiii": {
+            "name": "Region XIII",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#51a2be",
+            "hover": "#0a71b5",
+            "provinces": ["PHL2588", "PHL2594", "PHL2587", "PHL5532", "PHL2593"]
+        },"armm": {
+            "name": "ARMM",
+            "content": {
+                "thumb" : "theo.png",
+                "area" : "PH - Theo & Philo",
+                "title" : "Theo & Philo",
+                "description" : "Theo and Philo is literally chocolate and love. Theobrama cocoa is the scientific name of the cacao tree, while philos is Greek for the word love."
+            },
+            "color": "#ce4d5f",
+            "hover": "#e1001a",
+            "provinces": ["PHL2511", "PHL2519", "PHL4933", "PHL2524", "PHL2574", "PHL2576", "PHL5527", "PHL2576", "", ""]
+        }
+    },
+    "names": {
+        "PHL2513": "Bohol",
+        "PHL2511": "Tawi-Tawi",
+        "PHL2517": "Siquijor",
+        "PHL2516": "Negros Oriental",
+        "PHL2514": "Cebu",
+        "PHL2519": "Basilan",
+        "PHL2518": "Negros Occidental",
+        "PHL5549": "Quezon City",
+        "PHL5545": "Caloocan",
+        "PHL5544": "Navotas",
+        "PHL5547": "Valenzuela",
+        "PHL5546": "Malabon",
+        "PHL5541": "Dagupan",
+        "PHL5540": "Olongapo",
+        "PHL5543": "Manila",
+        "PHL5542": "Mandaluyong City",
+        "PHL2599": "South Cotabato",
+        "PHL2598": "Sarangani",
+        "PHL2593": "Surigao del Norte",
+        "PHL2592": "Compostela Valley",
+        "PHL2591": "Davao del Norte",
+        "PHL2590": "Camiguin",
+        "PHL2597": "Davao Oriental",
+        "PHL2596": "Davao del Sur",
+        "PHL2595": "Misamis Oriental",
+        "PHL2594": "Surigao del Sur",
+        "PHL5558": "Taguig",
+        "PHL5559": "Pateros",
+        "PHL5552": "Pasig",
+        "PHL5553": "Makati",
+        "PHL5550": "Marikina",
+        "PHL5551": "San Juan",
+        "PHL5556": "Las Pinas",
+        "PHL5557": "Muntinlupa",
+        "PHL5554": "Pasay",
+        "PHL5555": "Paranaque",
+        "PHL2588": "Agusan del Sur",
+        "PHL2589": "Bukidnon",
+        "PHL2580": "Sultan Kudarat",
+        "PHL2581": "Biliran",
+        "PHL2582": "Eastern Samar",
+        "PHL2583": "Leyte",
+        "PHL2584": "Samar",
+        "PHL2585": "Southern Leyte",
+        "PHL2586": "Northern Samar",
+        "PHL2587": "Agusan del Norte",
+        "PHL2539": "Catanduanes",
+        "PHL2538": "Camarines Sur",
+        "PHL2535": "Romblon",
+        "PHL2534": "Palawan",
+        "PHL2537": "Camarines Norte",
+        "PHL2536": "Albay",
+        "PHL2530": "Guimaras",
+        "PHL5529": "General Santos",
+        "PHL5528": "Davao",
+        "PHL5527": "Cotabato",
+        "PHL5526": "Iloilo",
+        "PHL5525": "Bacolod",
+        "PHL5524": "Lapu-Lapu",
+        "PHL5523": "Mandaue",
+        "PHL5522": "Cebu",
+        "PHL2528": "Capiz",
+        "PHL2529": "Iloilo",
+        "PHL2522": "Zamboanga del Sur",
+        "PHL2523": "Misamis Occidental",
+        "PHL2520": "Zamboanga del Norte",
+        "PHL2521": "Zamboanga Sibugay",
+        "PHL2526": "Antique",
+        "PHL2524": "Sulu",
+        "PHL2525": "Aklan",
+        "PHL4933": "Isabela",
+        "PHL4932": "Zamboanga",
+        "PHL4931": "Kalinga",
+        "PHL5538": "Angeles",
+        "PHL5539": "Baguio",
+        "PHL5534": "Ormoc",
+        "PHL5535": "Tacloban",
+        "PHL5536": "Naga",
+        "PHL5537": "Santiago",
+        "PHL5530": "Iligan",
+        "PHL5531": "Cagayan de Oro",
+        "PHL5532": "Butuan",
+        "PHL5533": "Puerto Princesa",
+        "PHL2559": "Benguet",
+        "PHL2558": "Pampanga",
+        "PHL2557": "Nueva Ecija",
+        "PHL2556": "Tarlac",
+        "PHL2555": "Bataan",
+        "PHL2554": "Quirino",
+        "PHL2553": "Nueva Vizcaya",
+        "PHL2552": "Mountain Province",
+        "PHL2551": "Ifugao",
+        "PHL2550": "Isabela",
+        "PHL2548": "Ilocos Sur",
+        "PHL2549": "Aurora",
+        "PHL2545": "Cagayan",
+        "PHL2546": "Apayao",
+        "PHL2547": "Ilocos Norte",
+        "PHL2540": "Masbate",
+        "PHL2541": "Sorsogon",
+        "PHL2542": "Abra",
+        "PHL2543": "Batanes",
+        "PHL2579": "Cotabato",
+        "PHL5560": "Lucena",
+        "PHL2571": "Mindoro Oriental",
+        "PHL2570": "Mindoro Occidental",
+        "PHL2573": "Lanao del Norte",
+        "PHL2572": "Quezon",
+        "PHL2574": "Lanao del Sur",
+        "PHL2576": "Maguindanao",
+        "PHL2566": "Laguna",
+        "PHL2567": "Rizal",
+        "PHL2564": "Batangas",
+        "PHL2565": "Bulacan",
+        "PHL2562": "Pangasinan",
+        "PHL2563": "Cavite",
+        "PHL2560": "Zambales",
+        "PHL2561": "La Union",
+        "PHL2569": "Marinduque"
+    }
+}
+    
+

@@ -4,18 +4,18 @@ console.log('theme.js loaded.')
 
     // EVENT HANDLERS
 
-    $(document).on('click', 'img', function(e){
+    $(document).on('click', 'path', function(e){
         url = $(this).attr('href')
 
-        if(!url) return;
+        if( !url || $('#snapper').hasClass('zoomed') ) return;
         window.location.href = url;
     });
 
-    // $('body').on('mouseover', function(e){
-    //     if( $(e.target).closest('.snap').length === 0) {
-    //         deactivateLayover();
-    //     }
-    // });
+    $('body').on('mouseover', function(e){
+        if( $(e.target).closest('.snap').length === 0) {
+            deactivateLayover();
+        }
+    });
 
     // -- END EVENT HANDLERS
 
@@ -82,7 +82,7 @@ console.log('theme.js loaded.')
             var snapX = parseInt($('.snap-container').attr('data-x')) || 0;
             var snapY = parseInt($('.snap-container').attr('data-y')) || 0;
             var point = active.getBBox();  
-            var left = ($('#snapper').hasClass('zoomed'))? (point.x2 + 180 + (snapX)) * scale : (point.x2 + 360 + (snapX * 2)) * scale;
+            var left = ($('#snapper').hasClass('zoomed'))? (point.x2 + 10 + (snapX)) * scale : (point.x2 + 20 + (snapX * 2)) * scale;
             var top = ($('#snapper').hasClass('zoomed'))? (point.y + (snapY)) * scale : (point.y + (snapY * 2)) * scale;
             
             layover.css({
@@ -139,7 +139,7 @@ console.log('theme.js loaded.')
         }
         for( var r in regions ) {
             layover.find('.content').append(
-                "<img href='" + regions[r].content.url + "' class='" + regions[r].content.thumb + "'" + "src='" + thumb_src + "regions/" + regions[r].content.thumb + ".png" + "' />"
+                "<img class='" + regions[r].content.thumb + "'" + "src='" + thumb_src + "regions/" + regions[r].content.thumb + ".png" + "' />"
             )
         }
 
@@ -148,6 +148,7 @@ console.log('theme.js loaded.')
             fill = regions[r].color;
             hover_fill = regions[r].hover;
             region = regions[r].name;
+            url = regions[r].content.url;
             for(var p in regions[r].provinces) {
                 area = regions[r].provinces[p];
                 target = $('path[data-area="' + area + '"]');
@@ -156,7 +157,8 @@ console.log('theme.js loaded.')
                     region: region,
                     fill: fill,
                     default_fill: fill,
-                    hover_fill: hover_fill
+                    hover_fill: hover_fill,
+                    href: url
                 });
                 
             }
@@ -270,6 +272,7 @@ console.log('theme.js loaded.')
     
         $('.snapper-zoom a').click(function(e){
             e.preventDefault();
+            deactivateLayover();
             mapZoom(e.currentTarget);
         })
     

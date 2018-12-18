@@ -6,7 +6,7 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 
 	<style>
-body {height: auto; width: auto;}
+	body {height: auto; width: auto;}
 	path {cursor: pointer;}
 
 	* {font-family: Arial, Helvetica, sans-serif; box-sizing: border-box;}
@@ -23,15 +23,20 @@ body {height: auto; width: auto;}
 	.layover .content img {display: none; margin: 0 auto; max-height: 72px; max-width: 100%; cursor: pointer;}
 	.layover .content img.active {display: block;}
 
-	.snapper-zoom {position: fixed; top: 230px; left: 130px; z-index: 999;}
+	.snapper-zoom {position: fixed; top: 230px; left: calc(50% - 350px); transform: translateX(-50%); z-index: 999;}
 	.snapper-zoom a {display: block; margin-bottom: 10px; border: 1px solid #000; border-radius: 5px; transition: .5s; line-height: 35px; height: 35px; width: 35px; text-align: center; background-color: #FFF; text-decoration: none !important; font-weight: bold; color: #000;}
 	.snapper-zoom a:hover {color: #000; background-color: rgba(255, 255, 255, .5);}
 	.layover.active {display: block; opacity: 1;}
 	
+	.snap {position: relative;}
 	#snapper text {opacity: 0; display: none; transition: .5s; font-size: 8px; font-weight: bold;}
 	#snapper.zoomed text {opacity: 1; display: block;}
 
 	.snap {height: 900px; width: 600px; margin: 0 auto; overflow: hidden;}
+
+	@media screen and (max-width: 1024px) {
+		.snapper-zoom {left: 100px;}
+	}
 	</style>
 
 </head>
